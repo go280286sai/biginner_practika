@@ -1,0 +1,1 @@
+SELECT sum(price) as prices FROM public.products group by in_stock order by prices desc limit 1;
